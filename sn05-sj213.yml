@@ -37,6 +37,7 @@
        - "host    apollo          apollo          10.5.68.0/24            md5"
        - "host    chado           apollo          10.5.68.0/24            md5"
        - "host    grt             grt             10.5.68.0/24            md5"
+    postgresql_pgdump_dir: "/var/lib/pgsql/pgdump"
   vars_files:
     - secret_group_vars/all.yml
   pre_tasks:
