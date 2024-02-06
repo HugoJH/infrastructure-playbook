@@ -1,2 +1,2 @@
-ansible-core==2.11.3
+ansible-core==2.15.9
 boto==2.49.0
